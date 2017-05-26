@@ -34,7 +34,7 @@
             <a href="{{ url('/') }}">
                 <i class="fa fa-home fa-lg" aria-hidden="true">
                 </i>
-                Electronics
+                Electronics E. V. E.
             </a>
         </h4>
     </div>
@@ -76,10 +76,10 @@
         </div>
 
         <div class="small-6 medium-4 large-4 columns">
-            <h4>Follow Us</h4>
+            <h4>Siguenos</h4>
             <ul class="footer-links">
-                <li><a href="https://github.com/">GitHub</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="https://github.com/Arailie/Taller">GitHub</a></li>
+                <li><a href="">Facebook</a></li>
                 <li><a href="https://twitter.com/">Twitter</a></li>
             </ul>
         </div>
