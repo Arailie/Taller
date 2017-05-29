@@ -15,7 +15,11 @@
 //    return view('welcome');
 //});
 
-Route::get('/','MainController@home');
+Route::get('/', 'FrontController@index')->name('home');
+Route::get('/shirts', 'FrontController@shirts')->name('shirts');
+Route::get('/shirt', 'FrontController@shirt')->name('shirt');
+
+//Route::get('/','MainController@home');
 
 Auth::routes();
 Route::resource('products','ProductsController');
