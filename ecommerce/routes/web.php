@@ -20,3 +20,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+
+//PRODUCTS CRUD
+//Route::get('products','ProductsController@listAll');
+//Route::post('products\create','ProductsController@create');
+//Route::get('products\update','ProductsController@update');
+//Route::get('products\delete','ProductsController@delete');
+//Route::get('products\show','ProductsController@show');
+Route::resource('products','ProductsController');
