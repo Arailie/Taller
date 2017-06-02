@@ -85,3 +85,5 @@ Route::get('/home', 'HomeController@index');
 //Route::get('products\delete','ProductsController@delete');
 //Route::get('products\show','ProductsController@show');
 Route::resource('products','ProductsController');
+
+
